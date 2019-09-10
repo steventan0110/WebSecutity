@@ -9,7 +9,7 @@ function initialization() {
         cx = i * width / 20;
         cy = i * height / 20;
         ctx.moveTo(0,cy);
-        ctx.lineTo(width,cy);
+        ctx.lineTo(width,cy);``
         ctx.stroke();
         ctx.moveTo(cx,0);
         ctx.lineTo(cx,height);
