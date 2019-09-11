@@ -19,12 +19,13 @@ function initialization() {
 /* Draw the pices on the board.
 * isBlack is the boolean type that checks if the user is black side
 */
-function drawCircle(x,y, isBlack) {
+function drawCircle(x,y,isBlack) {
     if (isBlack) {
         var color = "black";
     } else {
-        color = "white";
+        var color = "white";
     }
+    
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
     ctx.beginPath();
@@ -33,6 +34,6 @@ function drawCircle(x,y, isBlack) {
     ctx.fillStyle = color;
     ctx.fill();
     ctx.lineWidth = 3;
-    ctx.strokeStyle = "black";
+    ctx.strokeStyle = color;
     ctx.stroke();
 }
