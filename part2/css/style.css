@@ -1,0 +1,18 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+/* #board {
+  height: 100%;
+  width: 100%;
+  display:inline-block;
+  background:white;
+  } */
+
+
+#myCanvas {
+  background-color: #f9f9f9;
+	border: 1px solid #f1f1f1;
+	box-shadow: 2px 2px 3px #aaaaaa;
+}
